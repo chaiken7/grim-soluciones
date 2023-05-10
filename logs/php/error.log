@@ -1,0 +1,121 @@
+[04-Mar-2023 02:15:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "pg_assets" not found or invalid function name in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#3 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#4 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#7 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\index.php(14): wp_head()
+#8 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Fede\\L...')
+#9 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Fede\\L...')
+#10 C:\Users\Fede\Local Sites\grim-soluciones\app\public\index.php(17): require('C:\\Users\\Fede\\L...')
+#11 {main}
+  thrown in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\class-wp-hook.php on line 308
+[05-Mar-2023 05:18:05 UTC] PHP Parse error:  syntax error, unexpected token ":" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 19
+[05-Mar-2023 05:18:15 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 56
+[05-Mar-2023 05:39:17 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 37
+[05-Mar-2023 06:00:59 UTC] PHP Warning:  Undefined variable $count in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 22
+[05-Mar-2023 06:00:59 UTC] PHP Warning:  Undefined variable $count in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 29
+[05-Mar-2023 06:33:11 UTC] PHP Warning:  Object of class WP_Post could not be converted to int in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\post.php on line 6651
+[05-Mar-2023 06:33:11 UTC] PHP Warning:  Object of class WP_Post could not be converted to int in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\post.php on line 6571
+[05-Mar-2023 06:33:11 UTC] PHP Warning:  Object of class WP_Post could not be converted to int in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\post.php on line 6651
+[05-Mar-2023 06:33:11 UTC] PHP Warning:  Object of class WP_Post could not be converted to int in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\post.php on line 6571
+[05-Mar-2023 06:49:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_attachment_image_srcc() in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php:32
+Stack trace:
+#0 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\template.php(785): require()
+#1 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Fede\\L...', false, Array)
+#2 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\page-inicio.php(10): get_template_part('template-parts/...')
+#4 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Fede\\L...')
+#5 C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Fede\\L...')
+#6 C:\Users\Fede\Local Sites\grim-soluciones\app\public\index.php(17): require('C:\\Users\\Fede\\L...')
+#7 {main}
+  thrown in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 32
+[05-Mar-2023 07:03:58 UTC] PHP Warning:  Undefined array key "ids" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 30
+[05-Mar-2023 07:04:57 UTC] PHP Warning:  Undefined array key "ID" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 30
+[05-Mar-2023 07:05:08 UTC] PHP Warning:  Undefined array key "id" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 30
+[05-Mar-2023 07:05:10 UTC] PHP Warning:  Undefined array key "id" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 30
+[05-Mar-2023 15:17:09 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 37
+[05-Mar-2023 15:19:27 UTC] PHP Warning:  Undefined variable $slider in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 29
+[05-Mar-2023 15:19:27 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 29
+[05-Mar-2023 15:19:47 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 35
+[05-Mar-2023 15:24:26 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:25:35 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:31:23 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:31:56 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:34:28 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:35:04 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:35:31 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[05-Mar-2023 15:39:41 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\template-parts\portfolio.php on line 33
+[08-Mar-2023 22:02:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[19-Mar-2023 19:36:42 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 125
+[19-Mar-2023 19:37:06 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 125
+[19-Mar-2023 19:37:06 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 125
+[19-Mar-2023 19:37:09 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 125
+[19-Mar-2023 19:37:09 UTC] PHP Parse error:  syntax error, unexpected token ">" in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 125
+[02-Apr-2023 19:30:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 101
+[02-Apr-2023 19:30:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 101
+[02-Apr-2023 19:30:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 101
+[02-Apr-2023 19:30:41 UTC] PHP Warning:  Array to string conversion in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php on line 74
+[02-Apr-2023 19:30:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 101
+[02-Apr-2023 19:31:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 101
+[02-Apr-2023 19:54:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:54:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:48 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:55:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:56:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:56:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:56:34 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:56:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:56:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:56:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:57:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:57:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:57:00 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:57:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 104
+[02-Apr-2023 19:57:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 104
+[02-Apr-2023 19:57:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 104
+[02-Apr-2023 19:57:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 104
+[02-Apr-2023 19:58:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 19:59:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 20:00:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 129
+[02-Apr-2023 20:34:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 103
+[02-Apr-2023 20:34:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 103
+[02-Apr-2023 20:34:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 103
+[02-Apr-2023 20:34:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Fede\Local Sites\grim-soluciones\app\public\wp-content\themes\grim\functions.php on line 103
